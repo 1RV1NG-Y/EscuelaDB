@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Segoe UI', 'sans-serif';
+    text-align: center;
+    background: purple;
+}
+
+a{
+    text-decoration: none;
+}
+
+.users-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.users-form form input{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.users-form form input[type=text],
+.users-form form input[type=password],
+.users-form form input[type=email]{
+    padding: 8px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    transition: .3s;
+}
+
+.users-form form input[type=text]:focus,
+.users-form form input[type=password]:focus,
+.users-form form input[type=email]:focus{
+    border-color: dodgerblue;
+    box-shadow:0 0 6px 0 dodgerblue;
+}
+
+.users-form form input[type=submit]{
+    border: none;
+    padding: 12px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid purple;
+}
+
+.users-form form input[type=submit]:hover{
+    background-color: purple;
+    color: white;
+}
+
+.users-table table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    -webkit-box-shadow: 25px 40px 28px 0px rgba(0, 0, 0, 0.38);
+}
+
+table tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
+.users-table--edit{
+    background: #009688;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.users-table--delete{
+    background: #b11e1e;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+body, html {
+ min-height: 70vh;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+
+input {
+	outline: none;
+	border: none;
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*-- contenedor del Login--*/
+
+
+
+.wrap-login {
+  width: 400px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  -webkit-box-shadow: 25px 40px 28px 0px rgba(0, 0, 0, 0.38);
+ 
+}
+
+
+/*----Formulario de user y password----*/
+
+.login-form {
+  width: 100%;
+}
+
+.login-form-title {
+  display: block;
+ 
+  font-size: 40px;
+  color: #FFFFFF;
+  line-height: 1.5;
+  text-align: center;
+}
+.login-form-title2 {
+  display: block;
+
+  font-size: 40px;
+  color: #000000;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 37px;
+}
+
+.input100 {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+}
+
+/*---------------------------------------------*/ 
+.focus-efecto {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-efecto::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 4px; /*ancho de la linea que hace el efecto de barra de progeso en el input al hacer foco*/
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  background: linear-gradient(left, #21d4fd, #b721ff);
+}
+
+.focus-efecto::after {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.2;
+
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input100:focus + .focus-efecto::after {
+  top: -15px;
+}
+
+.input100:focus + .focus-efecto::before {
+  width: 100%;
+}
+
+.has-val.input100 + .focus-efecto::after {
+  top: -15px;
+}
+
+.has-val.input100 + .focus-efecto::before {
+  width: 100%;
+}
+
+/*---------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+
