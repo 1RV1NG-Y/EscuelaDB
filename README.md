@@ -22,41 +22,50 @@ Queremos recalcar que el propósito de este proyecto es facilitar el trabajo a u
 
 "SQL INSERT INTO Statement". W3Schools Online Web
 Tutorials. https://www.w3schools.com/sql/sql_insert.asp
+
 "SQL UPDATE Statement". W3Schools Online Web
 Tutorials. https://www.w3schools.com/sql/sql_update.asp
+
 "SQL DELETE Statement". W3Schools Online Web
 Tutorials. https://www.w3schools.com/sql/sql_delete.asp
+
 "secuencia de uso de MySQL". Web Online
 tutorials. http://www.w3big.com/es/mysql/mysql-using-sequences.html#gsc.tab=0
+
 "Introducción a índices en MySQL - Adictos al trabajo". Adictos al
 trabajo. https://www.adictosaltrabajo.com/2015/09/11/introduccion-a-indices-en-mysql/
+
 "CREATE VIEW MySQL: Crear vistas en una base de datos". Aner
 Barrena. https://www.anerbarrena.com/create-view-mysql-5101/
+
 Programador Novato. Crear vistas en MySQL Workbench (Curso de MySQL desde cero
 [19])🐬. (23 de noviembre de 2020). Accedido el 13 de diciembre de 2022. [Video en línea].
+
 Disponible: https://www.youtube.com/watch?v=gY84AgIt6vE
+
 "MySQL AVG() Function". W3Schools Online Web
 Tutorials. https://www.w3schools.com/sql/func_mysql_avg.asp
+
 "SQL UNION Operator". W3Schools Online Web
-Tutorials. https://www.w3schools.com/sql/sql_union.asp (accedido el 13 de diciembre de
-29
-2022).
+Tutorials. https://www.w3schools.com/sql/sql_union.asp (accedido el 13 de diciembre de 29 2022).
+
 "SQL GROUP BY Statement". W3Schools Online Web
 Tutorials. https://www.w3schools.com/sql/sql_groupby.asp
+
 "Cursores MySQL". CódigoFacilito. https://codigofacilito.com/articulos/cursores-mysql
+
 "Crear cursores en mysql". Gonzalo
 López. https://blogprog.gonzalolopez.es/articulos/crear-cursores-en-mysql.html
+
 "Triggers Mysql". CódigoFacilito. https://codigofacilito.com/articulos/triggers_mysql
-Juan Ibañez. TRIGGER o DISPARADOR EN PHPMYADMIN. (10 de junio de 2020). Accedido el
-13 de diciembre de 2022. [Video en línea].
+Juan Ibañez. TRIGGER o DISPARADOR EN PHPMYADMIN. (10 de junio de 2020). Accedido el 13 de diciembre de 2022. [Video en línea].
 Disponible: https://www.youtube.com/watch?v=g891lf5kHzM
+
 "Funciones de MySQL: Cadena, Numérico, Definido por el usuario, Almacenado - Guru99".
 Guru99. https://guru99.es/functions/
-Programador Novato. 🚢 Funciones con PHPMyAdmin en MySQL (CURSO PhpMyAdmin
-En español 🇪🇸) [15]. (5 de enero de 2021). Accedido el 13 de diciembre de 2022. [Video en
-línea]. Disponible: https://www.youtube.com/watch?v=9XeUVTLII8Y
-Programador Novato. 🚢 Procedimientos almacenados con PHPMyAdmin en MySQL
-(CURSO PhpMyAdmin En espanol ) [14]. (4 de enero de 2021). Accedido el 13 de diciembre
-de 2022. [Video en línea]. Disponible: https://www.youtube.com/watch?v=w_AtIrIWhKQ
-"SQL GROUP BY Statement". W3Schools Online Web
-Tutorials. https://www.w3schools.com/sql/sql_groupby.asp
+
+Programador Novato. 🚢 Funciones con PHPMyAdmin en MySQL (CURSO PhpMyAdmin En español 🇪🇸) [15]. (5 de enero de 2021). Accedido el 13 de diciembre de 2022. [Video en línea]. Disponible: https://www.youtube.com/watch?v=9XeUVTLII8Y
+
+Programador Novato. 🚢 Procedimientos almacenados con PHPMyAdmin en MySQL (CURSO PhpMyAdmin En espanol ) [14]. (4 de enero de 2021). Accedido el 13 de diciembre de 2022. [Video en línea]. Disponible: https://www.youtube.com/watch?v=w_AtIrIWhKQ
+
+"SQL GROUP BY Statement". W3Schools Online Web Tutorials. https://www.w3schools.com/sql/sql_groupby.asp
