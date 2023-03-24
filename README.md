@@ -18,6 +18,39 @@ Queremos recalcar que el propósito de este proyecto es facilitar el trabajo a u
 
 ![Alt text](/img/cap3.png?raw=true "Optional Title")
 
+## Requerimientos
+   • Sistema funcionando que cumpla con: 
+   
+   • Altas,  bajas, cambios para,  por lo menos las principales  tablas (5) involucradas en el sistema.
+   
+   • Consultas o reportes  de por lo menos 2 de los datos necesarios a reportar en el sistema, las consultas deberán involucrar por lo menos 3 tablas en join
+   • Uso de secuencias, por lo menos 1 secuencia.
+    
+   • Uso de índices por lo menos 1, independientemente de los creados por defecto por oracle.  
+    
+   • Uso de vistas por lo menos 3. 
+    
+   • Uso de funciones de Oracle sum, decode, avg,  etc.
+    
+   • Uso de Union, intersec o minus en 1 consulta 
+    
+   • Uso de Group By, Having 
+    
+   • Uso de PL/SQL:
+   
+         ◦ Uso de cursores, por lo menos 1 ya sea en el procedimiento, función.
+         ◦ Triggers por lo menos 2. 
+         ◦ Funciones, por lo menos 2. 
+         ◦ Procedimientos por lo menos 2. 
+        
+   • Uso de cube, rollup, etc. 
+    
+   • Manejo de transacciones.
+
+
+Todo lo requerido de la base de datos debe de estar ligada con el sistema, las vistas, procedimientos, etc. deben de ejecutarse por alguna acción en el uso del sistema.
+
+
 ## Bibliografia
 
 "SQL INSERT INTO Statement". W3Schools Online Web
